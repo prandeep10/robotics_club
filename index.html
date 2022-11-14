@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="" height="70px" width="70px">
+            ROBO-CLUB AEC
+        </a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#hero-section" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#events" onclick="toggleMenu();">Events</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="contact.php" onclick="toggleMenu();">Contact</a></li>
+            <li><a href="" onclick="toggleMenu();">Contact</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Gallery</a></li>
+        </ul>
+    </header>
+
+
+
+
+
+
+
+    <section id="hero-section" class="bgimg-1">
+
+        <h1>
+            ROBO-CLUB
+        </h1>
+
+        <h2>
+            Assam Engineering College
+        </h2>
+
+        <a href="" class="btn">Know More</a>
+
+    </section>
+
+
+
+
+<section id="events">
+
+    <h1>EVENTS AT ROBO-CLUB AEC</h1>
+
+    <div class="events-card-container">
+
+
+        <a href="">
+            <img src="main.jpg" alt="" height="230px" width="340px">
+        </a>
+
+        <a href="">
+            <img src="main.jpg" alt="" height="230px" width="340px">
+        </a>
+
+        <a href="">
+            <img src="main.jpg" alt="" height="230px" width="340px">
+        </a>
+
+        <a href="">
+            <img src="main.jpg" alt="" height="230px" width="340px">
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<section id="about">
+    <img src="main.jpg" alt="" height="500px" width="500px">
+    <div class="description">
+        <h1>About Us</h1>
+        <p>
+            Robotics Club, Assam Engineering College is a Platform for the students of AEC to showcase their talent in the field of Robotics. 
+
+This club was founded on 09-08-2008. It is one of the oldest clubs of the Institution. 
+
+
+        </p>
+    </div>
+</section>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menutoggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menutoggle.classList.toggle('active');
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
