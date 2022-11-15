@@ -15,6 +15,7 @@
 .gallery p{
 color: rgb(155, 155, 155);
 margin: 0.4em;
+text-align: center;
 }
 
 .images-container{
