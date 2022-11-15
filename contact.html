@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="team.css">
+</head>
+
+<body>
+
+
+
+    <header>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="" height="70px" width="70px">
+        </a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="index.html#hero-section" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#events" onclick="toggleMenu();">Events</a></li>
+            <li><a href="contact.php" onclick="toggleMenu();">Contact</a></li>
+            <li><a href="team.html" onclick="toggleMenu();">Team</a></li>
+            <li><a href="gallery.html" onclick="toggleMenu();">Gallery</a></li>
+        </ul>
+    </header>
+
+
+
+
+
+    <footer>
+        Copyright &copy; 2022 roboclub.aec.ac.in
+    </footer>
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menutoggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menutoggle.classList.toggle('active');
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -19,101 +20,120 @@
         </a>
         <div class="toggle" onclick="toggleMenu();"></div>
         <ul class="menu">
-            <li><a href="#hero-section" onclick="toggleMenu();">Home</a></li>
-            <li><a href="#events" onclick="toggleMenu();">Events</a></li>
-            <li><a href="#about" onclick="toggleMenu();">About</a></li>
-            <li><a href="contact.php" onclick="toggleMenu();">Contact</a></li>
+            <li><a href="index.html#hero-section" onclick="toggleMenu();">Home</a></li>
+            <li><a href="index.html#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="index.html#events" onclick="toggleMenu();">Events</a></li>
+            <li><a href="#" onclick="toggleMenu();">Contact</a></li>
+            <li><a href="team.html" onclick="toggleMenu();">Team</a></li>
+            <li><a href="gallery.html" onclick="toggleMenu();">Gallery</a></li>
         </ul>
     </header>
 
 
 
-    <div id="hero-section" class="bgimg-1">
+    <section id="hero-section" class="bgimg-1">
 
         <h1>
-            ROBOTICS-CLUB
+            ROBOTICS CLUB
         </h1>
 
         <h2>
             Assam Engineering College
         </h2>
 
-        <a href="" class="btn">Know More</a>
+        <a href="#about" class="btn">Know More</a>
 
-    </div>
-
-
+    </section>
 
 
-<div id="events">
+    <section id="about">
+        <img src="about.gif" alt="" height="500px" width="540px">
+        <div class="description">
+            <h1>About Us</h1>
+            <div class="">
+                <h3>Our Profile</h3>
+                <p>Robotics Club, Assam Engineering College is a Platform for the students of AEC to showcase their
+                    talent in the field of Robotics.
 
-    <h1>EVENTS</h1>
+                    This club was founded on 09-08-2008. It is one of the oldest clubs of the Institution.
 
-    <div class="events-card-container">
-
-
-        <a href="">
-            <img src="events/4.png" alt="" height="260px" width="370px">
-        </a>
-
-        <a href="">
-            <img src="events/1.png" alt="" height="260px" width="370px">
-        </a>
-
-        <a href="">
-            <img src="events/2.png" alt="" height="260px" width="370px">
-        </a>
-
-        <a href="">
-            <img src="events/3.png" alt="" height="260px" width="370px">
-        </a>
-
-        <a href="">
-            <img src="events/5.png" alt="" height="260px" width="370px">
-        </a>
+                </p>
 
 
+                <h3>The Objective</h3>
+                <p>
+                <ul>
+                    <li>Organises various events workshops to teach students and increase their working spirit.
+                    </li>
 
-    </div>
+                    <li>Provides an environment to allow technically inclined like-minded students to get together and
+                        follow their interests</li>
 
-</div>
+                    <li>Different types of competitions are also organised to encourage students.
+                    </li>
 
-
-
-<div id="about">
-    <img src="about.gif" alt="" height="500px" width="540px">
-    <div class="description">
-        <h1>About Us</h1>
-        <div class="">
-
-<h3>Our Profile</h3>
-<p>Robotics Club, Assam Engineering College is a Platform for the students of AEC to showcase their talent in the field of Robotics. 
-
-    This club was founded on 09-08-2008. It is one of the oldest clubs of the Institution. 
-    
-    </p>
-<h3>The Objective</h3>
-<p>
-    <ul>
-        <li>Organises various events workshops to teach students and increase their working spirit.
-        </li>
-
-        <li>Provides an environment to allow technically inclined like-minded students to get together and follow their interests</li>
-
-        <li>Different types of competitions are also organised to encourage students.
-        </li>
-
-        <li>Students are taught to represent AEC in state and national level competitions.</li>
-    </ul>
-</p>
+                    <li>Students are taught to represent AEC in state and national level competitions.</li>
+                </ul>
+                </p>      
+            </div>
         </div>
-            
-        
+    </section>
 
+
+
+
+
+
+<section id="events">
+    <h2>Events</h2>
+    <div class="card-container">
+
+        <div class="card">
+            <img src="events/3.png" alt="" height="300px" width="370px">
+            <div class="about-event">Intra AEC Ideathon (18th-19th November)</div>
+        </div>
+
+        <div class="card">
+            <img src="events/1.png" alt="" height="300px" width="370px">
+            <div class="about-event">Launching Makerspace (11th may,2022)</div>
+        </div>
+
+        <div class="card">
+            <img src="events/2.png" alt="" height="300px" width="370px">
+            <div class="about-event">R-AEC4.0 (30TH & 31ST MARCH 2022)</div>
+        </div>
+
+        <div class="card">
+            <img src="events/4.png" alt="" height="300px" width="370px">
+            <div class="about-event">Introduction to Robotics (30th  Dec 2021</div>
+        </div>
+
+        <div class="card">
+            <img src="events/5.png" alt="" height="300px" width="370px">
+            <div class="about-event">Circuit Untangled (23rd January 2022)</div>
+        </div>
 
     </div>
-</div>
+</section>
 
+
+
+<footer>
+
+        <div class="social-media">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-solid fa-phone"></i>
+        </div>
+
+
+    <div class="copyright">
+        Copyright &copy; 2022 roboclub.aec.ac.in
+    </div>
+
+    
+</footer>
 
 
     <script type="text/javascript">
