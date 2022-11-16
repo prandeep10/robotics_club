@@ -271,7 +271,7 @@ header ul li a {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background: linear-gradient(rgb(11, 11, 70), rgb(166, 166, 225));
+    background: linear-gradient(rgb(46, 46, 117), rgb(166, 166, 225));
 }
 
 #events h2 {

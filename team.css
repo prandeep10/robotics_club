@@ -31,16 +31,21 @@
 }
 
 .team-card a{
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(11, 105, 123);
     width: 300px;
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: white;
+    padding: 10px;
+}
+
+.team-card a:hover{
+    background-color: rgb(25, 158, 185);  
 }
 
 .team-card .team-about{
-    background-color: rgb(193, 186, 186);
+    background-color: rgb(231, 231, 231);
     width: 300px;
     display: flex;
     justify-content: center;
