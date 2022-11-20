@@ -24,15 +24,24 @@
     margin: 15px;
 }
 
+.team-card img{
+    width: 320px;
+}
+
 #team h1{
-    margin-bottom: 1em;
     font-size: 4em;
     color: aliceblue;
 }
 
+#team p{
+color: rgb(155, 155, 155);
+margin: 0.4em;
+text-align: center;
+}
+
 .team-card a{
     background-color: rgb(11, 105, 123);
-    width: 300px;
+    width: 320px;
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -46,7 +55,7 @@
 
 .team-card .team-about{
     background-color: rgb(231, 231, 231);
-    width: 300px;
+    width: 320px;
     display: flex;
     justify-content: center;
     text-decoration: none;

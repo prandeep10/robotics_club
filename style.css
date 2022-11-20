@@ -40,7 +40,7 @@ body {
 }
 
 .bgimg-3 {
-    background-image: url();
+    background-image: url(contact-bg.jpg);
     min-height: 50vh;
 }
 
@@ -386,6 +386,52 @@ footer .social-media {
     }
 }
 
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h1{
+    font-size: 3em;
+    color: white;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-input{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+}
+
+.form-input input{
+    height: 40px;
+}
+
+.form-input label{
+    font-size: 2em;
+    color: white;
+}
+
+.form-input textarea{
+    height: 100px;
+    padding: 10px;
+}
+
+
+
 @media (max-width: 991px) {
 
     #about img {
@@ -404,6 +450,8 @@ footer .social-media {
         width: 350px;
     }
 
-
+    .form-input{
+        width: 350px;
+    }
 
 }
