@@ -35,12 +35,12 @@ body {
 }
 
 .bgimg-2 {
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/015/294/original/dark-blue-abstract-background-with-moving-light-effect-free-video.jpg);
+    background-image: url(events-bg.jpg);
     min-height: 100vh;
 }
 
 .bgimg-3 {
-    background-image: url(contact-bg.jpg);
+    background-image: url(electronics-bg.png);
     min-height: 50vh;
 }
 
@@ -237,7 +237,7 @@ header ul li a {
     align-items: center;
     justify-content: center;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 125px;
     background: rgb(255, 254, 254);
 }
 
@@ -271,11 +271,11 @@ header ul li a {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background: linear-gradient(rgb(46, 46, 117), rgb(166, 166, 225));
+    padding-bottom: 100px;
 }
 
 #events h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
     margin-top: 4em;
     margin-bottom: 1em;
@@ -293,6 +293,7 @@ header ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .card {
@@ -419,6 +420,7 @@ footer .social-media {
 
 .form-input input{
     height: 40px;
+    padding: 10px;
 }
 
 .form-input label{
@@ -447,9 +449,11 @@ footer .social-media {
         font-size: 2em;
     }
 
-    #event .card-container .card img{
-        width: 350px;
+    .card img{
+        width: 370px;
+        height: 270px;
     }
+    
 
     .form-input{
         width: 350px;
